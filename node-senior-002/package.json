@@ -1,0 +1,20 @@
+{
+  "name": "node-senior-002-idempotent-event-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Senior Node.js technical interview exercise: idempotent event API",
+  "type": "commonjs",
+  "scripts": {
+    "test:public": "jest tests/public --runInBand",
+    "test:hidden": "jest tests/hidden --runInBand",
+    "test:all": "jest tests --runInBand",
+    "test": "npm run test:public"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}

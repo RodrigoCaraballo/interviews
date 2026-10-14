@@ -1,0 +1,16 @@
+{
+  "name": "node-senior-001-concurrent-job-processor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Senior Node.js technical interview exercise",
+  "type": "commonjs",
+  "scripts": {
+    "test:public": "jest tests/public --runInBand",
+    "test:hidden": "jest tests/hidden --runInBand",
+    "test:all": "jest tests --runInBand",
+    "test": "npm run test:public"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
